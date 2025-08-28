@@ -25,8 +25,8 @@ const educationData = [
 
 const experienceData = [
   {
-    title: "Python Programming",
-    institution: "NISC",
+    title: "Python Programming Intern",
+    institution: "NSIC",
     date: "March 2025",
   },
 ];
