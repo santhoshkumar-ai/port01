@@ -100,7 +100,7 @@ function ProjectCard({ title, tech, desc, github, live }: ProjectProps){
       )}
       <a 
         href={github}
-        className="flex items-center gap-2 border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:border-black hover:text-black transition-colors text-sm font-medium"
+        className="flex bg-black text-white items-center gap-2 border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:border-black hover:text-black transition-colors text-sm font-medium "
       >
         <CodeBracketIcon className="h-4 w-4" />
         GitHub

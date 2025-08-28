@@ -150,7 +150,7 @@ function Hero() {
 
             {/* Resume Button */}
             <motion.a
-              href="https://drive.google.com/file/d/1UbkRQOdQJMnnzYpyrmL6pMuWPBJQLa98/view?usp=sharing"
+              href="https://drive.google.com/file/d/1NcpTSf2gJczCIkhkEzkUYRxGW_VoUp1m/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               variants={{
