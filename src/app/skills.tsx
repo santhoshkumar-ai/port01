@@ -22,7 +22,7 @@ const SKILLS: Skill[] = [
     title: "Backend Architecture",
     description:
       "Designing scalable microservices and backend systems with clean API layers and secure communication.",
-    highlights: ["Spring Boot", "FastAPI", "RabbitMQ"],
+    highlights: ["Nodejs", "FastAPI", "Express"],
   },
   {
     icon: EyeIcon,

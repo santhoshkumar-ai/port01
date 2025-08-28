@@ -24,7 +24,7 @@ function Hero() {
               color="black"
               className="font-sora mb-6 lg:text-6xl text-4xl !leading-tight"
             >
-              Hi, I'm Sujay Sharvesh
+              Hi, I'm Santhosh kumar
             </Typography>
           </motion.div>
 
@@ -42,13 +42,13 @@ function Hero() {
             >
               <TypeAnimation
                 sequence={[
+                  "Software Developer",
+                  2000,
                   "Backend Developer",
                   2000,
                   "Tech Explorer",
                   2000,
-                  "DevOps Enthusiast",
-                  2000,
-                  "Cloud Enthusiast",
+                  "Forntend Developer",
                   2000,
                 ]}
                 wrapper="span"
@@ -90,7 +90,7 @@ function Hero() {
           >
             {/* GitHub Button */}
             <motion.a
-              href="https://github.com/sujaysharvesh"
+              href="https://github.com/santhoshkumar-ai"
               target="_blank"
               rel="noopener noreferrer"
               variants={{
@@ -120,7 +120,7 @@ function Hero() {
 
             {/* LinkedIn Button */}
             <motion.a
-              href="https://www.linkedin.com/in/sujay-sharvesh-47737b2b1/"
+              href="https://www.linkedin.com/in/santhosh-kumar-212008229/"
               target="_blank"
               rel="noopener noreferrer"
               variants={{
@@ -150,7 +150,7 @@ function Hero() {
 
             {/* Resume Button */}
             <motion.a
-              href="https://drive.google.com/file/d/1akjhoD7XUsrIBCEQm_Gz0qSnb6Ej_G9t/view?usp=sharing"
+              href="https://drive.google.com/file/d/1UbkRQOdQJMnnzYpyrmL6pMuWPBJQLa98/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               variants={{
@@ -180,7 +180,7 @@ function Hero() {
 
             {/* Contact Button */}
             <motion.a
-              href="mailto:sharveshsujay@example.com"
+              href="mailto:santhoshmaha2004@gmail.com"
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },

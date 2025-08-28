@@ -14,26 +14,26 @@ type ProjectProps = {
 
 const PROJECTS = [
   {
-    title: "DocFlow",
-    tech: "Java, Spring Boot, WebSocket, Redis Pub/Sub, RabbitMQ, OAuth2, Docker, EC2",
-    desc: "Currenlty working on a microservices-based real-time collaborative document editor using Yjs and Tiptap. Features WebSocket-based communication for simultaneous multi-user editing and Redis Pub/Sub to manage live document sessions across distributed services. Backend services are containerized with Docker, routed via Nginx and Spring Cloud Gateway, and deployed on AWS EC2.",
+    title: "Online Book Store(Book Search)",
+    tech: "Python, Jupyter Notebook, Pandas, Pickle, Streamlit, REST API",
+    desc: "Developed an online book search engine that delivers personalized recommendations by analyzing historical user data to enhance reading experiences. Leveraged Kaggle book datasets and applied data analysis techniques using Python (Pandas), implementing cosine similarity to calculate book similarity scores. Serialized trained recommendation models with Pickle and deployed an interactive Streamlit web application, enabling users to receive real-time book recommendations through an intuitive interface.",
    
-    github: "https://github.com/sujaysharvesh/CollaborationService",
+    github: "https://github.com/santhoshkumar-ai/Book-recommender-system",
     live: null
   },
   {
-    title: "VibeStream",
-    tech: "Java, Spring Boot, WebClient, PostgreSQL, Redis, OAuth2, Docker, S3, EC2",
-    desc: "A microservices-based music streaming platform that lets users create and manage their own playlists on the cloud. Secured with OAuth 2.0 and JWT-based authentication, using PostgreSQL for structured metadata and AWS S3 for audio files. Features Redis as distributed token store for OAuth 2.0 with containerized deployment on AWS EC2.",
+    title: "Interactive Dashboard ",
+    tech: "React, JavaScript, TailwindCSS, Framer Motion",
+    desc: "Integrated a ToDoBoard for task management, a UserCard system for quick profile insights, and an interactive Calendar for event scheduling and tracking, all built with modern front-end technologies that emphasize real-time interactivity, data visualization, and user-centric design. Demonstrated expertise in React, component-based architecture, and state management while optimizing scalability and performance.",
     
-    github: "https://github.com/sujaysharvesh/MusicService",
-    live: "https://music-client-ten.vercel.app/"
+    github: "https://github.com/santhoshkumar-ai/Dashboard",
+    live: "https://dashboard-nu-two-80.vercel.app/"
   },
   {
     title: "PharmaTrack",
     tech: "Java, Spring Boot, PostgreSQL, AWS S3, SVM",
     desc: "A high-performance drug file management system with integrated SVM model (Python/scikit-learn) to auto-classify drug types from uploaded files. Features AES-256 encryption for sensitive files before storing in AWS S3, while storing metadata in PostgreSQL. The trained SVM model classifies drugs with high accuracy, significantly reducing manual labeling efforts.",
-    github: "",
+    github: "https://github.com/santhoshkumar-ai/Drug-discovery",
     live: null
   }
 ];
@@ -118,7 +118,7 @@ export function Projects() {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-black mb-6">
-            My Projects
+            My Projects 
           </h2>
           <p className="text-gray-600 text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed">
             Here are some of the projects I've built, showcasing my expertise in backend development, 

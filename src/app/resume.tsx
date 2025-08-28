@@ -13,21 +13,21 @@ const educationData = [
   },
   {
     title: "HSC",
-    institution: "Ramakrishna Mission Vidyalaya Matric Higher Secondary School",
+    institution: "Madras Christian College Higher Secondary School",
     date: "2019 - 2021",
   },
   {
     title: "SSLC",
-    institution: "Ramakrishna Mission Vidyalaya Matric Higher Secondary School",
-    date: "2017 - 2019",
+    institution: "Madras Christian College Higher Secondary School",
+    date: "2018 - 2019",
   },
 ];
 
 const experienceData = [
   {
-    title: "Backend Developer",
-    institution: "Contract",
-    date: "Jan 2025 - Feb 2025",
+    title: "Python Programming",
+    institution: "NISC",
+    date: "March 2025",
   },
 ];
 

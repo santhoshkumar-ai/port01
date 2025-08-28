@@ -160,7 +160,7 @@ export function Navbar() {
                   color="blue-gray"
                   className="font-sora text-xl font-bold tracking-tight bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent"
                 >
-                  {"<SujaySharvesh />"}
+                  {"<SanthoshKumar />"}
                 </Typography>
               </motion.div>
             </motion.div>
@@ -198,12 +198,12 @@ export function Navbar() {
                 whileTap={{ scale: 0.95 }}
               >
                 <a
-                  href="https://www.linkedin.com/in/sujay-sharvesh-47737b2b1/"
+                  href="https://www.linkedin.com/in/santhosh-kumar-212008229/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button className="bg-gray-900 hover:bg-white text-white hover:text-black font-medium px-6 py-2.5 rounded-xl">
-                    Connect
+                    Get Connect
                   </Button>
                 </a>
               </motion.div>

@@ -10,7 +10,7 @@ export function Footer() {
           <Typography
             className="font-sora text-center text-gray-700 font-normal text-sm "
           >
-            Made with more bugs than caffeine ☕🐛 — © {CURRENT_YEAR} SujaySharvesh
+            Made with more bugs than caffeine ☕🐛 — © {CURRENT_YEAR} Santhoshkumar : )
           </Typography>
         </div>
       </div>
